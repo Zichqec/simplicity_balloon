@@ -1,0 +1,4 @@
+charset,UTF-8
+type,balloon
+name,Simplicity Balloon
+directory,simplicity_balloon_zi
