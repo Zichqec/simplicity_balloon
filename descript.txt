@@ -2,6 +2,7 @@ charset,UTF-8
 type,balloon
 use_self_alpha,1
 use_input_alpha,1
+//overlay_outside_balloon,1
 
 
 //——— Basic information ———
@@ -39,10 +40,6 @@ cursor.font.color.r,015
 cursor.font.color.g,084
 cursor.font.color.b,138
 
-cursor.pen.color.r,015
-cursor.pen.color.g,084
-cursor.pen.color.b,138
-
 cursor.style,underline
 
 disable.font.color.r,146
@@ -62,7 +59,7 @@ arrow1.y,-20
 onlinemarker.x,5
 onlinemarker.y,-18
 
-onlinemarker.interval,175
+//onlinemarker.interval,175
 
 
 //——— SSTP ———
@@ -73,7 +70,7 @@ sstpmessage.font.name,Calibri
 sstpmessage.font.height,11
 
 sstpmessage.x,31
-sstpmessage.xr,-90
+sstpmessage.xr,-20
 sstpmessage.y,-17
 
 sstpmessage.font.color.r,137
@@ -85,7 +82,7 @@ sstpmessage.font.color.b,168
 number.font.name,Calibri
 number.font.height,11
 
-number.xr,230
+number.xr,-20
 number.y,-17
 
 number.font.color.r,137
